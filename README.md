@@ -1,6 +1,6 @@
 # Solid Js sortable table demo
 
-![demo](/images/demo.png)
+![demo](/public/images/demo.png)
 
 ## scripts
 
