@@ -15,7 +15,9 @@
     "vite-plugin-solid": "^2"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.194",
+    "lodash": "^4.17.21",
     "solid-js": "^1",
-    "solidjs-use": "*"
+    "solid-styled-components": "^0.28.5"
   }
 }
