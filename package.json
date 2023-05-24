@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@types/lodash": "^4.14.194",
+    "@types/shortid": "^0.0.29",
     "lodash": "^4.17.21",
+    "shortid": "^2.2.16",
     "solid-js": "^1",
     "solid-styled-components": "^0.28.5"
   }

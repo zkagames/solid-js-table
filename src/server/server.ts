@@ -1,6 +1,7 @@
 import {MonthlyCardsRow } from "../types";
 import { API_DELIMITER, DATE_DELIMITER } from "../utils/consts";
 import { dailyCards } from "./data";
+import shortid from 'shortid';
 
 export const API = {
 
@@ -18,6 +19,6 @@ export const API = {
 
     const LARGE_ARRAY = 100 ; 
     const arr = [].concat(...Array(LARGE_ARRAY).fill(cards)); // 1,000 rows
-    return arr.map((row:MonthlyCardsRow)=>{return {...row, id: Math.random()}})
+    return arr.map((row:MonthlyCardsRow)=>{return {...row, id: shortid.generate()}})
   }
 }
